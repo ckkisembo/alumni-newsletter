@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 section {
     display: flex;
@@ -66,3 +67,73 @@ p {
       }
     }
 
+=======
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.editor {
+    background-color: #E7EAF6;
+}
+
+
+h1 {
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  margin: 10px;
+}
+
+h3 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+}
+
+.toc > li {
+    list-style: none;
+    text-align: end;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-size: x-large;
+    font-style: normal;
+}
+
+ul > li {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+
+p {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-bottom: 10px;
+      }
+    }
+
+>>>>>>> f8ab030a2eff9c73b1fadac8855037f1d7ebc524
